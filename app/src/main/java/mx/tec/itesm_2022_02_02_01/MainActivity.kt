@@ -27,9 +27,9 @@ class MainActivity : AppCompatActivity() {
 
             if (myString == "") {
 
-
+                myTextView.text = "Empty"
             } else {
-                   
+                myTextView.text = myString
             }
 
         }
